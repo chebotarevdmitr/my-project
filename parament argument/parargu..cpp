@@ -6,15 +6,15 @@ using namespace std;
  //	cout <<" My name is :"<<name<< endl;
  //}
   void introduceMi (string name,string cyti,int age){
-  	cout<<"My name is:"<<neme<<endl;
+  	cout<<"My name is:"<<name<<endl;
   	cout<<"I from "<<syti<<endl;
-  	cout<<
+  	cout<<"age" <<age<<endl;
   }
   
   
  int main() {
 // introduceMi("DIMA");
-	
+introduceMe("DIMA","Sevastopol","40");	
 	
 	system("pause>0");
 }
