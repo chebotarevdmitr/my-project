@@ -6,10 +6,10 @@ using namespace std;
  cout <<" My name is :"<<name<< endl;
  }
   
-  main() {
+ int main() {
  // ->("DIMA")<-argument	
  introduceMi("DIMA");
-	
+ introduceMi("student");
 	
 	system("pause>0");
 }
