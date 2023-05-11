@@ -1,18 +1,13 @@
 #include <iostream>
-
+#include <string.h>
 using namespace std;
- 
+ //->( string name )<-parametr
   void introduceMi (string name){
  cout <<" My name is :"<<name<< endl;
  }
-  //void introduceMi (string name,string cyti,int age){
-  //	cout<<"My name is:"<<neme<<endl;
-  //	cout<<"I from "<<syti<<endl;
-  //	cout<<
- // }
   
-  
- int main() {
+  main() {
+ // ->("DIMA")<-argument	
  introduceMi("DIMA");
 	
 	
