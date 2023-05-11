@@ -1,20 +1,17 @@
 #include <iostream>
-
+#include <string.h>
 using namespace std;
- 
- //void introduceMi (string name){
- //	cout <<" My name is :"<<name<< endl;
- //}
-  void introduceMi (string name,string cyti,int age){
-  	cout<<"My name is:"<<name<<endl;
-  	cout<<"I from "<<syti<<endl;
-  	cout<<"age" <<age<<endl;
-  }
-  
+ //->( string name )<-parametr
+  void introduceMi (string name,string sity,int age){
+ cout <<" My name is : "<<name<< endl;
+ cout <<"I am from : "<<sity<< endl;
+ cout <<" Age: "<<age<< "year old"<<endl;
+ }
   
  int main() {
-// introduceMi("DIMA");
-introduceMe("DIMA","Sevastopol","40");	
+ // ->("DIMA")<-argument	
+ introduceMi("DIMA","Sevastopol",45);
+ introduceMi("Student","Otradnoe",45);
 	
-	system("pause>0");
+system("pause>0");	
 }
